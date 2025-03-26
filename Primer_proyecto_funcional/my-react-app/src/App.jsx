@@ -8,6 +8,8 @@ import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
 import List2 from './List2.jsx'
 import Button from './Button.jsx'
+import MyComponent from './MyComponent.jsx'
+import Counter from './Counter.jsx'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -60,6 +62,12 @@ function App() {
        <List2 items= {vegetables} category="Vegetables"/>
       
       <Button/>
+
+      <hr/>
+
+      <MyComponent/>
+      <hr/>
+      <Counter/>
       
     </>
   )

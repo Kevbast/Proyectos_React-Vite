@@ -118,3 +118,28 @@ button:focus-visible {
   cursor: pointer;
   color: brown;
  }
+
+ .counter-container{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .counte-display{
+ font-size: 10em;
+ margin-top: 0;
+ margin-bottom: 60px;
+ }
+ .counter-button{
+  width: 150px;
+  font-weight: bold;
+  height: 50px;
+  font-size: 1.5em;
+  margin: 0px 5px;  /* left and ride */
+  background-color: rgb(6, 141, 141);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+ }
+ .counter-button:hover{
+  color: black;
+  background-color: aqua;
+ }
