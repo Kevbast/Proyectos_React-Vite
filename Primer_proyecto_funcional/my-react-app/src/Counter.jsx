@@ -8,7 +8,7 @@ function Counter() {
     const increment = ()=>{
         setCount(count + 1);
     }
-
+    //setCount(c =>c + 1); //updater functions,catch the previus number,you can use twice times or more
     const decrement = ()=>{
         setCount(count - 1);
     }
