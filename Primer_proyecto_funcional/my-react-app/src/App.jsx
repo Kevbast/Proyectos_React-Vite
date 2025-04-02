@@ -13,6 +13,8 @@ import Counter from './Counter.jsx'
 import MyComponent2 from './MyComponent2.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import MyComponent3 from './MyComponent3.jsx'
+import MyComponent4 from './MyComponent4.jsx'
+import MyComponent5 from './MyComponent5.jsx'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -84,6 +86,11 @@ function App() {
 
       <hr/>
 
+      <MyComponent4/>
+
+      <hr/>
+
+      <MyComponent5/>
       
     </>
   )
