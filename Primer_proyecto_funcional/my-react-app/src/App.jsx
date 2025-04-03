@@ -15,6 +15,7 @@ import ColorPicker from './ColorPicker.jsx'
 import MyComponent3 from './MyComponent3.jsx'
 import MyComponent4 from './MyComponent4.jsx'
 import MyComponent5 from './MyComponent5.jsx'
+import ToDoList from './ToDoList.jsx'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -92,6 +93,9 @@ function App() {
 
       <MyComponent5/>
       
+      <hr/>
+
+      <ToDoList/>
     </>
   )
 }

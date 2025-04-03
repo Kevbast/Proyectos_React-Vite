@@ -187,3 +187,81 @@ input[type="color"]{
   border: 3px solid rgb(114, 113, 113);
 }
 
+/* to-do-list */
+.to-do-list{
+font-family:Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+margin-top: 100px;
+background-color: rgb(44, 43, 43);
+border-radius: 5px;
+}
+
+.to-do-list h1{
+  font-size: 4rem;
+  font-style: oblique;
+}
+
+.to-do-list button{
+font-size: 1.7rem;
+font-weight: bold;
+padding: 10px 20px;
+color: rgb(255, 255, 255);
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.5s ease;
+}
+
+.add-button{
+  background-color: rgb(90, 133, 6);
+}
+.add-button:hover {
+  background-color: yellowgreen;
+}
+.delete-button{
+  background-color: brown;
+}
+.delete-button:hover{
+  background-color: rgba(218, 13, 13, 0.884);
+}
+.move-button{
+  background-color: rgb(0, 65, 187);
+}
+.move-button:hover{
+  background-color: cornflowerblue;
+}
+.to-do-list input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid rgb(177, 177, 177);
+  border-radius: 5px;
+  color: rgb(29, 26, 26);
+}
+.to-do-list ol{
+  padding: 0;
+}
+
+.to-do-list li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 8px;
+  background-color: rgb(221, 218, 218);
+  border: 2px solid rgb(177, 177, 177);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text{
+  flex: 1;
+}
+/* the same as above
+    flex-grow:1;
+    Flex-shrink:1;
+    flex: 0%;
+*/
+.delete-button, .move-button{
+  padding: 8px 10px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
