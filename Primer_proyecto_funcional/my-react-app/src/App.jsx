@@ -16,6 +16,8 @@ import MyComponent3 from './MyComponent3.jsx'
 import MyComponent4 from './MyComponent4.jsx'
 import MyComponent5 from './MyComponent5.jsx'
 import ToDoList from './ToDoList.jsx'
+import MyComponent6 from './MyComponent6.jsx'
+import MyComponent7 from './MyComponent7.jsx'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -96,6 +98,12 @@ function App() {
       <hr/>
 
       <ToDoList/>
+      <hr/>
+
+      <MyComponent6/>
+      <hr/>
+
+      <MyComponent7/>
     </>
   )
 }

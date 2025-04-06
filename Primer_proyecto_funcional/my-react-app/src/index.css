@@ -187,18 +187,20 @@ input[type="color"]{
   border: 3px solid rgb(114, 113, 113);
 }
 
-/* to-do-list */
+/* to-do-list APP */
 .to-do-list{
 font-family:Georgia, 'Times New Roman', Times, serif;
 text-align: center;
 margin-top: 100px;
 background-color: rgb(44, 43, 43);
 border-radius: 5px;
+margin: auto;
 }
 
 .to-do-list h1{
   font-size: 4rem;
   font-style: oblique;
+  color: antiquewhite;
 }
 
 .to-do-list button{
@@ -239,6 +241,7 @@ transition: background-color 0.5s ease;
 }
 .to-do-list ol{
   padding: 0;
+  margin: 20px;
 }
 
 .to-do-list li{
