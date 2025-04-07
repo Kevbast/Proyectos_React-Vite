@@ -18,6 +18,7 @@ import MyComponent5 from './MyComponent5.jsx'
 import ToDoList from './ToDoList.jsx'
 import MyComponent6 from './MyComponent6.jsx'
 import MyComponent7 from './MyComponent7.jsx'
+import DigitalClock from './DigitalClock.jsx'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -104,6 +105,10 @@ function App() {
       <hr/>
 
       <MyComponent7/>
+      <hr/>
+
+      <DigitalClock/>
+      
     </>
   )
 }

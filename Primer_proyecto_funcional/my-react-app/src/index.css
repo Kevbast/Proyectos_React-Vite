@@ -268,3 +268,31 @@ transition: background-color 0.5s ease;
   font-size: 1.4rem;
   margin-left: 10px;
 }
+/*Background image DigitalClock AND CONTAINER*/
+.clock-container{
+  background-image: url(assets/hollow_background.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  /*Optional*/
+  justify-content: center;
+  min-height: 80vh;
+  align-items: center;
+
+  
+}
+.clock{
+  color: aliceblue;
+  font-size: 8rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 3px 3px 5px black;
+  /*Optional*/
+  backdrop-filter: blur(5px);
+  width: 100vh;
+}
+
