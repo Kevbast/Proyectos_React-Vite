@@ -20,6 +20,7 @@ import MyComponent6 from './MyComponent6.jsx'
 import MyComponent7 from './MyComponent7.jsx'
 import DigitalClock from './DigitalClock.jsx'
 import ComponentA from './ComponentA.jsx'
+import MyComponent8 from './MyComponent8.jsx'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -111,6 +112,8 @@ function App() {
       <DigitalClock/>
       <hr/>
       <ComponentA/>
+      <hr/>
+      <MyComponent8/>
     </>
   )
 }
