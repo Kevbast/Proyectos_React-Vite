@@ -21,6 +21,7 @@ import MyComponent7 from './MyComponent7.jsx'
 import DigitalClock from './DigitalClock.jsx'
 import ComponentA from './ComponentA.jsx'
 import MyComponent8 from './MyComponent8.jsx'
+import StopWatch from './StopWatch.jsx'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -114,6 +115,14 @@ function App() {
       <ComponentA/>
       <hr/>
       <MyComponent8/>
+
+      <hr/>
+      <StopWatch/>
+      <hr/>
+      <StopWatch/>
+
+
+
     </>
   )
 }
